@@ -22,8 +22,13 @@ section {
 
 /* ABOUT IMAGE */
 .about img {
-    width: 150px;
-    border-radius: 50%;
+    width: 180px;           /* Image size */
+    height: 180px;
+    border-radius: 50%;     /* Makes image fully round */
+    border: 5px solid black; /* Border size & color */
+    object-fit: cover;     /* Prevents stretching */
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Soft shadow */
 }
 
 /* SKILLS */
@@ -70,3 +75,4 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
